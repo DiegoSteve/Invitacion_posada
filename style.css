@@ -148,6 +148,29 @@ body {
     color: #008000;
 }
 
+.form-section {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.form-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6347; /* Color rojo navideño */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-link:hover {
+    background-color: #cc5038; /* Color más oscuro al pasar el mouse */
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
