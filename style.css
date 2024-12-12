@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff4b5c, #ffe084);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    border: 2px solid #008000;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #008000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#countdown {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+/* Main Content */
+.main {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#nombre-invitado {
+    font-weight: bold;
+    color: #008000;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #006400;
+}
+
+/* Itinerario */
+.itinerary {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    text-align: center;
+}
+
+.itinerary h2 {
+    font-size: 1.8rem;
+    color: #008000;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.event {
+    background-color: #f9f9f9;
+    border-left: 4px solid #008000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.event h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.event p, .event ul {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.event ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.event ul li {
+    margin-bottom: 5px;
+}
+
+.event ul li strong {
+    color: #008000;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .nav, .main, .footer {
+        font-size: 1rem;
+    }
+
+    #countdown {
+        font-size: 1rem;
+    }
+}
